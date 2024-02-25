@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 70px;
+    padding: auto  0;
+}
+.firstHead div{
+    display: flex;
+    text-align: center;
+}
+.firstHead div a {
+    text-decoration: none;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: auto;
+    margin-top: 7px;
+}
+.firstHead div img{
+    width: 40px;
+    margin-bottom: 3px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.firstHead{
+    margin-left: 60px;
+}
+.secondHead div img{
+    width: 30px;
+}
+
+.firstHead nav ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+    color: #373736;
+}
+.firstHead nav ul li{
+    list-style-type: none;
+}
+.firstHead nav ul li a{
+    color: #373736;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+}
+.firstHead nav ul li a{
+    text-decoration: none;
+}
+.firstHead{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    text-align: center;
+}
+.firstHead div button{
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    padding: 0 12px;
+    border-radius: 5px;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+.secondHead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.twoflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.twoflex div a {
+    text-decoration: none;
+}
+.secondHead button{
+    background-color: #f15834;
+    color: #fff;
+    border: none;
+    padding: 25px 35px;
+}
+.all{
+    background-color: #f15834;
+    width: 1200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: none;
+    border-radius: 10px;
+}
+main div div h3{
+    display: flex;
+    color: #fff;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px 20px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.all div input{
+   display: inline;
+   width: 800px;
+   margin-left: 100px;
+   padding: 20px;
+   margin-top: -100px;
+}
+.asantext{
+    display: inline;
+    margin-top: -15px;
+    padding-left: 30px;
+}
